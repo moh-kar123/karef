@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body class="dark">
@@ -30,16 +31,17 @@
       <a href="#about" class="btn">ابدأ</a>
     </header>
 
+
     <section id="about" data-aos="fade-up">
-      <h2>من أنا؟</h2>
-      <p>
+      <h2 data-aos="fade-up">من أنا؟</h2>
+      <p data-aos="fade-up">
         انا محمد قارف طالب في الثانوية من الجزائر بالتحديد حاسي بحبح اريد ان
         اصير محترف في هذا المجال
       </p>
     </section>
 
     <section id="skills" data-aos="fade-up">
-      <h2>المهارات</h2>
+      <h2 data-aos="fade-up">المهارات</h2>
       <ul class="skills-list">
         <li>HTML/CSS😁</li>
         <li>node.js🤫</li>
@@ -59,7 +61,7 @@
     </section>
 
     <section id="projects" data-aos="fade-up">
-      <h2>مشاريعي</h2>
+      <h2 data-aos="fade-up">🛠️مشاريعي</h2>
       <div class="projects-container">
         <div class="project-card">تطبيق بسيط لمهام اليوم to do list✅</div>
         <div class="project-card">لعبة الدودة🐍</div>
@@ -68,12 +70,12 @@
       </div>
     </section>
     <section id="contact" data-aos="fade-up">
-      <h2>تواصل معي</h2>
+      <h2 data-aos="fade-up">تواصل معي📨</h2>
       <form class="contact-form">
         <input type="text" placeholder="الاسم" required />
         <input type="email" placeholder="البريد الإلكتروني" required />
         <textarea rows="5" placeholder="رسالتك..." required></textarea>
-        <button type="submit">إرسال</button>
+        <button type="submit">🚀إرسال</button>
       </form>
       <p
         id="success-msg"
@@ -98,7 +100,7 @@
           ><i class="fab fa-github"></i
         ></a>
         <a
-          href="https://instagram.com/karef._."
+          href="https://instagram.com/Moh._."
           target="_blank"
           rel="noopener noreferrer"
           ><i class="fab fa-instagram"></i
@@ -114,5 +116,12 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
   </body>
 </html>
